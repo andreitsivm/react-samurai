@@ -1,0 +1,10 @@
+.user_photo img{
+  width:80px;
+  height:80px;
+  border-radius:40px;
+  float: left;
+
+}
+.post{
+  overflow: hidden;
+}

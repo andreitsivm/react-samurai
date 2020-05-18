@@ -1,0 +1,9 @@
+.user_photo img{
+  width:256px;
+  height:256px;
+
+}
+.user_info ul li{
+  list-style : none;
+  overflow: hidden;
+}

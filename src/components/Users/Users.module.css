@@ -1,0 +1,12 @@
+.user{
+    display: flex;
+    border:1px solid black;
+}
+.selectedPage{
+    font-weight: bold;
+}
+/*.user img{*/
+/*    width: 100px;*/
+/*    height: 200px;*/
+/*    border-radius: 50px;*/
+/*}*/
