@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import style from './Users.module.css'
 import userPhoto from './../../user.png'
 import {NavLink} from "react-router-dom";
-import {Pagination} from "antd";
+
 import 'antd/dist/antd.css'
 
 
@@ -22,6 +22,7 @@ let Users = (props) => {
                          }}>{p}</span>
         })
         }
+
         {props.users.map(u => <div className={style.user} key={u.id}>
         <div><NavLink to={'profile/' + u.id}><img src={u.photos.large != null ? u.photos.large : userPhoto}/></NavLink>
             <div>{u.followed
